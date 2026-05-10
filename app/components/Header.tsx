@@ -1,6 +1,7 @@
 'use client'
 import { Menu, X, Recycle } from 'lucide-react';
 import { useState } from 'react';
+import Link from 'next/link';
 import Image from 'next/image';
 import { Button } from './ui/button';
 
@@ -28,14 +29,14 @@ export function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
-            <a href="#home" className="text-gray-700 hover:text-purple-600 transition-colors">Home</a>
-            <a href="#about" className="text-gray-700 hover:text-purple-600 transition-colors">About</a>
-            <a href="#services" className="text-gray-700 hover:text-purple-600 transition-colors">Services</a>
-            <a href="#resources" className="text-gray-700 hover:text-purple-600 transition-colors">Resources</a>
-            <a href="#contact" className="text-gray-700 hover:text-purple-600 transition-colors">Contact</a>
-            <a href="#contact">
+            <Link href="/" className="text-gray-700 hover:text-purple-600 transition-colors">Home</Link>
+            <Link href="/about" className="text-gray-700 hover:text-purple-600 transition-colors">About</Link>
+            <Link href="/services" className="text-gray-700 hover:text-purple-600 transition-colors">Services</Link>
+            <Link href="/resources" className="text-gray-700 hover:text-purple-600 transition-colors">Resources</Link>
+            <Link href="/contact" className="text-gray-700 hover:text-purple-600 transition-colors">Contact</Link>
+            <Link href="/contact">
             <Button className="bg-purple-600 hover:bg-purple-700">Get Started</Button>
-          </a>
+          </Link>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -51,14 +52,14 @@ export function Header() {
         {mobileMenuOpen && (
           <div className="md:hidden py-4 border-t border-gray-200">
             <nav className="flex flex-col gap-4">
-              <a href="#home" className="text-gray-700 hover:text-purple-600 transition-colors">Home</a>
-              <a href="#about" className="text-gray-700 hover:text-purple-600 transition-colors">About</a>
-              <a href="#services" className="text-gray-700 hover:text-purple-600 transition-colors">Services</a>
-              <a href="#resources" className="text-gray-700 hover:text-purple-600 transition-colors">Resources</a>
-              <a href="#contact" className="text-gray-700 hover:text-purple-600 transition-colors">Contact</a>
-              <a href="#contact">
+              <Link href="/" className="text-gray-700 hover:text-purple-600 transition-colors">Home</Link>
+              <Link href="/about" className="text-gray-700 hover:text-purple-600 transition-colors">About</Link>
+              <Link href="/services" className="text-gray-700 hover:text-purple-600 transition-colors">Services</Link>
+              <Link href="/resources" className="text-gray-700 hover:text-purple-600 transition-colors">Resources</Link>
+              <Link href="/contact" className="text-gray-700 hover:text-purple-600 transition-colors">Contact</Link>
+              <Link href="/contact">
               <Button className="bg-purple-600 hover:bg-purple-700 w-full">Get Started</Button>
-            </a>
+            </Link>
             </nav>
           </div>
         )}

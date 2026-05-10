@@ -227,6 +227,37 @@ const jsonLd = {
         },
       ],
     },
+    {
+      "@type": "ItemList",
+      "@id": `${SITE_URL}/#navigation`,
+      name: "Site Navigation",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          url: `${SITE_URL}/about`,
+          name: "About Us",
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          url: `${SITE_URL}/services`,
+          name: "Services",
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          url: `${SITE_URL}/contact`,
+          name: "Contact",
+        },
+        {
+          "@type": "ListItem",
+          position: 4,
+          url: `${SITE_URL}/resources`,
+          name: "Resources",
+        },
+      ],
+    },
   ],
 };
 

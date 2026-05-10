@@ -32,11 +32,11 @@ export function Footer() {
           <div>
             <h4 className="text-white mb-4">Quick Links</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="#home" className="hover:text-purple-400 transition-colors">Home</a></li>
-              <li><a href="#about" className="hover:text-purple-400 transition-colors">About Us</a></li>
-              <li><a href="#services" className="hover:text-purple-400 transition-colors">Services</a></li>
-              <li><a href="#resources" className="hover:text-purple-400 transition-colors">Resources</a></li>
-              <li><a href="#contact" className="hover:text-purple-400 transition-colors">Contact</a></li>
+              <li><Link href="/" className="hover:text-purple-400 transition-colors">Home</Link></li>
+              <li><Link href="/about" className="hover:text-purple-400 transition-colors">About Us</Link></li>
+              <li><Link href="/services" className="hover:text-purple-400 transition-colors">Services</Link></li>
+              <li><Link href="/resources" className="hover:text-purple-400 transition-colors">Resources</Link></li>
+              <li><Link href="/contact" className="hover:text-purple-400 transition-colors">Contact</Link></li>
             </ul>
           </div>
 
