@@ -1,7 +1,6 @@
 import { Header } from './Header';
 import { Hero } from './Hero';
 import { About } from './About';
-import { FounderMessage } from './FounderMessage';
 import { Services } from './Services';
 import { WhyChooseUs } from './WhyChooseUs';
 import { SteelProducts } from './SteelProducts';
@@ -19,7 +18,6 @@ export function HomePage() {
       <Header />
       <Hero />
       <About />
-      <FounderMessage />
       <Services />
       <WhyChooseUs />
       <SteelProducts />

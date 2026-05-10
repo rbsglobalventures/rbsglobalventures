@@ -65,7 +65,7 @@ export function About() {
             </p>
             <p className="text-gray-600 mb-8">
               Our mission is simple: Provide quality materials, ensure transparent trading, and promote 
-              sustainable recycling. With over 4 years of experience, we've built a reputation for reliability, 
+              sustainable recycling. With over 4 years of experience, we&apos;ve built a reputation for reliability, 
               transparency, and excellence, serving 20+ cities with dependable supply chains and fair pricing.
             </p>
 
@@ -92,27 +92,6 @@ export function About() {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-
-        {/* MSME Registration Section */}
-        <div className="mt-12 bg-purple-50 rounded-2xl p-8 border border-purple-200">
-          <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6 text-center md:text-left">
-            <div>
-              <h4 className="text-lg font-semibold text-gray-900 mb-2">MSME Registered</h4>
-              <p className="text-gray-600 text-sm">
-                We are proud to be a registered MSME (Micro, Small and Medium Enterprises) company, 
-                supporting India's economic growth and development.
-              </p>
-            </div>
-            <a 
-              href="/documents/Udyam Registration Certificate.pdf" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition-colors text-sm font-medium inline-block"
-            >
-              View Certificate
-            </a>
           </div>
         </div>
       </div>

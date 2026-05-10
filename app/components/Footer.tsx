@@ -1,4 +1,4 @@
-import { Recycle, Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
+import { Recycle, Mail, Phone, MapPin } from 'lucide-react';
 import Link from 'next/link';
 
 export function Footer() {
@@ -37,6 +37,8 @@ export function Footer() {
               <li><Link href="/services" className="hover:text-purple-400 transition-colors">Services</Link></li>
               <li><Link href="/resources" className="hover:text-purple-400 transition-colors">Resources</Link></li>
               <li><Link href="/contact" className="hover:text-purple-400 transition-colors">Contact</Link></li>
+              <li><Link href="/founder" className="hover:text-purple-400 transition-colors">Founder&apos;s Message</Link></li>
+              <li><Link href="/msme" className="hover:text-purple-400 transition-colors">MSME Certificate</Link></li>
             </ul>
           </div>
 
